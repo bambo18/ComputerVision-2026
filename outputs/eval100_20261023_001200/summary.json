@@ -1,0 +1,22 @@
+{
+  "model": "OctoMed/OctoMed-7B",
+  "dataset": "OctoMed/SLAKE",
+  "split": "test",
+  "selection": "first 100 rows, or all if fewer",
+  "num_samples": 100,
+  "metric": "casefold + whitespace normalized exact match",
+  "correct": 85,
+  "normalized_exact_match_percent": 85.0,
+  "average_inference_seconds": 0.2772340199485188,
+  "inference_total_seconds": 27.723401994851884,
+  "total_seconds_including_loading": 38.078661578998435,
+  "generation_limit_reached_count": 0,
+  "peak_gpu_allocated_gib": 15.538457870483398,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch_version": "2.14.1+cu130",
+  "dtype": "torch.bfloat16",
+  "max_new_tokens": 512,
+  "do_sample": false,
+  "min_pixels": 262144,
+  "max_pixels": 262144
+}

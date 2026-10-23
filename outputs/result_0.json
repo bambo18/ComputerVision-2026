@@ -1,0 +1,15 @@
+{
+  "model": "OctoMed/OctoMed-7B",
+  "dataset": "OctoMed/SLAKE",
+  "split": "test",
+  "index": 0,
+  "question": "What modality is used to take this image? Answer in a short word or phrase.",
+  "reference_answer": "CT",
+  "prediction_raw": "CT",
+  "answer_type": "OPEN",
+  "generated_tokens": 2,
+  "generation_limit_reached": false,
+  "max_new_tokens": 512,
+  "do_sample": false,
+  "image_path": "outputs/sample_0.png"
+}

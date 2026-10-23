@@ -1,0 +1,41 @@
+{
+  "note": "Exploratory evaluation, not official paper reproduction. EM and token F1 use casefold and whitespace normalization. Tokenization uses whitespace; punctuation/articles retained.",
+  "raw_answer_type_counts": {
+    "OPEN": 645,
+    "CLOSED": 416
+  },
+  "groups": {
+    "all": {
+      "count": 1061,
+      "exact_match_correct": 898,
+      "exact_match_percent": 84.63713477851084,
+      "mean_token_f1_percent": 87.32435697091682,
+      "average_inference_seconds": 0.27594670067733534,
+      "generation_limit_reached_count": 0
+    },
+    "open": {
+      "count": 645,
+      "exact_match_correct": 518,
+      "exact_match_percent": 80.31007751937985,
+      "mean_token_f1_percent": 84.73045386998876,
+      "average_inference_seconds": 0.2930858226380195,
+      "generation_limit_reached_count": 0
+    },
+    "closed": {
+      "count": 416,
+      "exact_match_correct": 380,
+      "exact_match_percent": 91.34615384615384,
+      "mean_token_f1_percent": 91.34615384615384,
+      "average_inference_seconds": 0.24937282167579375,
+      "generation_limit_reached_count": 0
+    },
+    "unknown": {
+      "count": 0,
+      "exact_match_correct": 0,
+      "exact_match_percent": null,
+      "mean_token_f1_percent": null,
+      "average_inference_seconds": null,
+      "generation_limit_reached_count": 0
+    }
+  }
+}
